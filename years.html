@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vida animal</title>
+    <link rel="stylesheet" href="static/years.css">
+    <link rel="shortcut icon" href="img/rogramadora.ico" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <h1>!Vida animal¡</h1>
+    <p>¿Cuantos años tendrias si fueras un perro o un gato?</p>
+
+    <div class="contenedor-padre">
+
+        <div class="contenedor" data-aos="zoom-out-right" data-aos-duration="2000">
+            <p>Años Gato</p>
+            <form action="">
+                <label>Ingrese su edad con dos años menos</label>
+                <input type="text" id="edadHumana">
+                <input type="button" onclick="edadGato()" class="btn" value="Enviar">
+                <h2>Tendrias: <span id="T-gato"></span> </h2>
+            </form>
+        </div>
+
+        <div class="contenedor" data-aos="zoom-out-left" data-aos-duration="2000">
+            <p>Años Perro</p>
+            <form action="">
+                <label>Ingrese su edad con dos años menos</label>
+                <input type="text" id="Edadhumana">
+                <input type="button" onclick="edadPerro()" class="btn" value="Enviar">
+                <h2>Tendrias: <span id="T-perro"></span></h2>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        
+        <div class="barra-blanca"><h2>©Copyright Soribel S.B</h2></div>
+        <!-- <i class="bx bxl-instagram"></i> ICON -->
+        
+    </footer>
+   
+
+    <script src="static/years.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <!-- script de la animacion -->
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
